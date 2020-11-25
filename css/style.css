@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+}
+.container{
+	width: 1140px;
+	height: 100vh;
+	background-image: 	linear-gradient(to right, rgba(173 ,27 , 27 ,0.95) 30%, rgba(173 ,27 , 27 ,0.65) 80%),
+						url("../img/Umrah-Hajj-Vaccine-Package-0.jpg");
+	background-size: cover;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+.nav-item{
+	display: flex;
+	justify-content: flex-end;
+	padding: 40px;
+}
+.first{
+	margin-right: auto;
+}
+.nav-link{
+	color: #fff;
+	font-weight: bold;
+	padding: 40px;
+}
+.nav-link:hover{
+	padding: 20px 20px 15px 20px;
+    box-shadow: 0px 3px 0 0px #fff;
+    transition: 0.9s;
+}
+.title{
+	padding-left: 70px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 150px;
+}
+strong{
+	font-size: 70px;
+}
+.subtext{
+	color: #fff;
+	width: 450px;
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	padding-left: 70px;
+}
+.link{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #ff8400;
+	padding: 10px 15px;
+	margin-left: 70px;
+	border-radius: 25px;
+}
